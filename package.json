@@ -2,14 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
   },
   "keywords": [
     "js",
-    "backednd"
+    "backednd" 
   ],
   "author": "abhinav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
